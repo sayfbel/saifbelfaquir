@@ -1,0 +1,113 @@
+@media screen and  (max-width: 600px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 10px 15px;
+    }
+    .listenav{
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+    
+}
+
+@media (max-width:1023px){
+    .footer-col {
+      flex: 1;
+      margin: 0 20px;
+    }
+    
+  
+  input[type="email"]:focus {
+    width: 200px;
+  }
+  }
+    
+  
+@media screen and (max-width: 768px) {
+  .slide-content{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
+  .child{
+    min-width: 50%;
+    height: 450px;
+  }
+  .cover{
+    position: relative;
+    width: 70%;
+    height: 50%;
+    }
+    .min-scroll-div{
+      width: 90%;
+    }
+    .links{
+      margin: 0;
+  }
+}
+
+@media (max-width:674px){
+  /*about*/
+footer {
+  padding: 50px 0;
+  width: 100%;
+}
+.child{
+  min-width: 100%;
+  height: 450px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.tri{
+  flex-direction: column;
+}
+.tri .image{
+  width: 100%;
+}
+.infosectiontri{
+  width: 100%;
+}
+.infolearnmore{
+  width: 100%;
+}
+.towifo{
+  flex-direction: column;
+}
+.tow .image{
+  width: 100%;
+  background-size: cover;
+}
+.infosectiontow{
+  width: 100%;
+}
+}
+@media (max-width:353px) {
+  .min-scroll-div{
+    width: 85%;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width:280px;
+  }
+  .footerform input[type="email"] {
+    width: 100px;
+  }
+  .footerform input[type="email"]:focus  {
+    width: 150px;
+  }
+}

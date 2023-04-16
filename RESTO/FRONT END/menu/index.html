@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <title>Menu</title>
+</head>
+<body>
+    <header id="headre">
+        <div class="logo">
+            <a id="LOGO" href="../index.html">NAME</a> 
+            <label class="burger" for="burger">
+                <input type="checkbox" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+        </div>
+        <ul class="listenav">
+            <li><a class="Active" href="../index.html">Home</a></li>
+            <li><a class="links" href="../index.html#SERVISE">Servise</a></li>
+            <li><a class="links" href="#MENU">Menu</a></li>
+            <li><a class="links" href="../index.html#CONTACT">Contact</a></li>
+            <li><a class="links" href="#ABOUT">About</a></li>
+        </ul>
+        <ul style="display: none;" id="navmobile" class="listenavmobile">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#SERVISE">Servise</a></li>
+            <li><a class="links" href="#MENU">Menu</a></li>
+            <li><a href="../index.html#CONTACT">Contact</a></li>
+            <li><a href="#ABOUT">About</a></li>
+        </ul>
+    </header>
+    <section class="one">
+        
+        <img src="../../IMAGE/Wok Asian Food Logowith.png" alt="" class="logoimg">
+        <h1>Welcom to MENU</h1>
+        <div class="contactediv">
+          <div class="info">Commandez en ligne ou appelez maintenant:</p> <br>
+          <a href="#">+212 6000-00000</a>
+          </div>
+          <div class="likeserchcar">
+            <div class="container-input">
+              <input type="text" id="searchbar" onkeyup="search_meals()" placeholder="Search" name="text" class="input">
+              <svg fill="#e09018" width="20px" height="20px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+                <path d="M790.588 1468.235c-373.722 0-677.647-303.924-677.647-677.647 0-373.722 303.925-677.647 677.647-677.647 373.723 0 677.647 303.925 677.647 677.647 0 373.723-303.924 677.647-677.647 677.647Zm596.781-160.715c120.396-138.692 193.807-319.285 193.807-516.932C1581.176 354.748 1226.428 0 790.588 0S0 354.748 0 790.588s354.748 790.588 790.588 790.588c197.647 0 378.24-73.411 516.932-193.807l516.028 516.142 79.963-79.963-516.142-516.028Z" fill-rule="evenodd"></path>
+            </svg>
+            </div>            
+          </div>
+        </div>
+        <div class="allcategoris">
+          <div class="menu-categoris">
+            <ul>
+              <li class="PIZZA">
+                <i class="fa-solid fa-pizza-slice"></i><a href="#PIZZA">PIZZA <i class="fa-sharp fa-solid fa-caret-down"></i></a>
+              </li>
+              <li class="BURGERS">
+                <i class="fa-solid fa-burger"></i><a href="#BURGERS">BURGERS <i class="fa-sharp fa-solid fa-caret-down"></i></a>
+              </li>
+              <li class="SALADES">
+                <i class="fa-sharp fa-solid fa-bowl-food"></i><a href="#">SALADES <i class="fa-sharp fa-solid fa-caret-down"></i></a>
+              </li>
+              <li class="SANDWICHS">
+                <i class="fa-solid fa-hotdog"></i><a href="#SANDWICHS">SANDWICHS <i class="fa-sharp fa-solid fa-caret-down"></i></a>
+              </li>
+              <li class="PASTA">
+                <i class="fa-solid fa-bowl-food"></i><a href="#PASTA">PASTA <i class="fa-sharp fa-solid fa-caret-down"></i></a>
+              </li>
+              <li class="CREPES">
+                <i class="fa-solid fa-stroopwafel"></i><a href="#CREPES">CREPES <i class="fa-sharp fa-solid fa-caret-down"></i></a>
+              </li>
+              <li class="PLATS">
+                <i class="fa-solid fa-utensils"></i><a href="#PLATS">PLATS <i class="fa-sharp fa-solid fa-caret-down"></i></a>
+              </li>
+              <li class="DRINKS">
+                <i class="fa-solid fa-martini-glass-citrus"></i><a href="#DRINKS">DRINKS <i class="fa-sharp fa-solid fa-caret-down"></i></a>
+              </li>
+              <li class="SWEETS">
+                <i class="fa-solid fa-ice-cream"></i><a href="#SWEETS">SWEETS <i class="fa-sharp fa-solid fa-caret-down"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="info-categoris">
+            <ul>
+              <div class="pisess info-pizza">
+                  <img src="../../IMAGE/PIZZA/pexels-roman-odintsov-5903101.jpg" alt="" class="pise">
+                  <img src="../../IMAGE/PIZZA/pexels-polina-tankilevitch-4109111.jpg" alt="" class="pise">
+                  <img src="../../IMAGE/PIZZA/pexels-vincent-rivaud-2233348.jpg" alt="" class="pise">
+              </div>
+              <div class="pisess info-BURGERS">
+                  <img src="../../IMAGE/BURGERS/pexels-johnny-rizk-2987564.jpg" alt="" class="pise">
+                  <img src="../../IMAGE/BURGERS/pexels-valeria-boltneva-580612.jpg" alt="" class="pise">
+                  <img src="../../IMAGE/BURGERS/pexels-daniel-reche-3616956.jpg" alt="" class="pise">
+              </div>
+              <div class="pisess info-SALADES">
+                  <img src="../../IMAGE/SALADES/pexels-aura-zhang-16144003.jpg" alt="" class="pise">
+                  <img src="../../IMAGE/SALADES/pexels-valeria-boltneva-14457210.jpg" alt="" class="pise">
+                  <img src="../../IMAGE/SALADES/pexels-antony-trivet-14460398.jpg" alt="" class="pise">
+              </div>
+              <div class="pisess info-SANDWICHS">
+                  <img src="../../IMAGE/SANDWICHS/pexels-nishant-aneja-2955819.jpg" alt="" class="pise">
+                  <img src="../../IMAGE/SANDWICHS/pexels-rajesh-tp-1633525.jpg" alt="" class="pise">
+                  <img src="../../IMAGE/SANDWICHS/pexels-geraud-pfeiffer-6605653.jpg" alt="" class="pise">
+              </div>
+              <div class="pisess info-PASTA">
+                  <img src="../../IMAGE/PASTA/pexels-anthony-leong-2092906.jpg" alt="" class="pise">
+                  <img src="../../IMAGE/PASTA/pexels-engin-akyurt-1527603.jpg" alt="" class="pise">
+                  <img src="../../IMAGE/PASTA/pexels-engin-akyurt-2347311.jpg" alt="" class="pise">
+              </div>
+              <div class="pisess info-CREPES">
+                  <img src="../../IMAGE/CREPES/pexels-eileen-lamb-3225499.jpg" alt="" class="pise">
+                  <img src="../../IMAGE/CREPES/pexels-eileen-lamb-3225506.jpg" alt="" class="pise">
+                  <img src="../../IMAGE/CREPES/pexels-pixabay-221063.jpg" alt="" class="pise">
+              </div>
+              <div class="pisess info-PLATS">
+                  <img src="../../IMAGE/PLATS/pexels-valeria-boltneva-1683549.jpg" alt="" class="pise">
+                  <img src="../../IMAGE/PLATS/pexels-engin-akyurt-2673353.jpg" alt="" class="pise">
+                  <img src="../../IMAGE/PLATS/pexels-kasumi-loffler-3535383.jpg" alt="" class="pise">
+              </div>
+              <div class="pisess info-DRINKS">
+                  <img src="../../IMAGE/DRINKS/pexels-valeria-boltneva-1200348.jpg" alt="" class="pise">
+                  <img src="../../IMAGE/DRINKS/pexels-this-is-zun-1148215.jpg" alt="" class="pise">
+                  <img src="../../IMAGE/DRINKS/pexels-sadman-chowdhury-1564534.jpg" alt="" class="pise">
+              </div>
+              <div class="pisess info-SWEETS">
+                <img src="../../IMAGE/SWEETS/pexels-susanne-jutzeler-sujufoto-1132558.jpg" alt="" class="pise">
+                <img src="../../IMAGE/SWEETS/pexels-jhoon-14434357.jpg" alt="" class="pise">
+                <img src="../../IMAGE/SWEETS/pexels-pixabay-161420.jpg" alt="" class="pise">
+              </div>
+            </ul>
+          </div>
+        </div>
+        <video autoplay loop muted plays-inline class="back-video">
+          <source src="../../IMAGE/pexels-cottonbro-studio-3338747-4096x2160-50fps.mp4" type="video/mp4">
+      </video>
+    </section>
+    <section class="testimonial-section">
+      <h2>What Our Clients Say</h2>
+      <div class="testimonial-container">
+        <div class="testimonial">
+          <img src="../../IMAGE/client1.jpg" alt="Client 1" class="client-image">
+          <p class="client-quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed lacinia mauris, eget hendrerit ex."</p>
+          <p class="client-name">- John Doe</p>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+        </div>
+        <div class="testimonial">
+          <img src="../../IMAGE/client2.jpg" alt="Client 2" class="client-image">
+          <p class="client-quote">"Vestibulum rhoncus ultrices sapien, id condimentum metus tincidunt ac. Integer bibendum a ex nec fermentum."</p>
+          <p class="client-name">- Jane Smith</p>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9734;</span>
+          </div>
+        </div>
+        <div class="testimonial">
+          <img src="../../IMAGE/client3.jpg" alt="Client 3" class="client-image">
+          <p class="client-quote">"Vestibulum rhoncus ultrices sapien, id condimentum metus tincidunt ac. Integer bibendum a ex nec fermentum."</p>
+          <p class="client-name">- Aria Harrison</p>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9734;</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="MENU" class="menu">
+      <h1>Menu</h1>
+      <ul>
+        <li id="PIZZA" class="meals">
+          <i class="fa-solid fa-pizza-slice"></i> PIZZA:
+          <div class="menu-items">
+            <div class="menu-item">
+              <img src="../../IMAGE/PIZZA/pexels-vincent-rivaud-2233348.jpg" alt="Meal 1">
+              <h2>Margherita Pizza</h2>
+              <p>Fresh tomatoes, mozzarella cheese, basil, and olive oil on a thin crust.</p>
+              <span>$9.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/PIZZA/pexels-polina-tankilevitch-4109111.jpg" alt="Meal 2">
+              <h2>Pepperoni Pizza</h2>
+              <p>Classic pizza with tomato sauce, mozzarella cheese, and slices of pepperoni.</p>
+              <span>$8.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/PIZZA/pexels-roman-odintsov-5903101.jpg" alt="Meal 10">
+              <h2>Veggie Supreme Pizza </h2>
+              <p>Loaded with an assortment of fresh vegetables such as bell peppers, onions, mushrooms, olives, and tomatoes.</p>
+              <span>$12.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/PIZZA/pexels-kristina-paukshtite-1146760.jpg" alt="Meal 10">
+              <h2>BBQ Chicken Pizza</h2>
+              <p> Tangy BBQ sauce, cooked chicken breast, red onions, cilantro, and mozzarella cheese.</p>
+              <span>$15.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/PIZZA/pexels-andre-saddi-13985154.jpg" alt="Meal 10">
+              <h2>Meat Lover's Pizza</h2>
+              <p>A carnivore's delight with pepperoni, sausage, bacon, and ground beef on top of tomato sauce and cheese.</p>
+              <span>$10.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/PIZZA/pexels-rene-strgar-10836977.jpg" alt="Meal 10">
+              <h2>Mediterranean Pizza </h2>
+              <p>Sun-dried tomatoes, artichoke hearts, kalamata olives, feta cheese, and pesto on a thin crust.</p>
+              <span>$5.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/PIZZA/pexels-valeria-boltneva-10875298.jpg" alt="Meal 10">
+              <h2>Hawaiian Pizza</h2>
+              <p>A controversial favorite with ham, pineapple chunks, and mozzarella cheese for a sweet and savory combo.</p>
+              <span>$13.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/PIZZA/pexels-rene-strgar-13814644.jpg" alt="Meal 10">
+              <h2>White Pizza</h2>
+              <p>A unique twist without tomato sauce, topped with ricotta cheese, garlic, spinach, mushrooms, and mozzarella cheese.</p>
+              <span>$7.99</span>
+            </div>
+        </div>
+        </li>
+        <li id="BURGERS" class="meals">
+          <i class="fa-solid fa-burger"></i> BURGERS:
+          <div class="menu-items">
+            <div class="menu-item">
+              <img src="../../IMAGE/BURGERS/pexels-daniel-reche-3616956.jpg" alt="Meal 1">
+              <h2>Classic Cheeseburger</h2>
+              <p> Juicy beef patty, melted cheese, lettuce, tomato, onion, pickles, and ketchup on a sesame seed bun.</p>
+              <span>$9.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/BURGERS/pexels-johnny-rizk-2987564.jpg" alt="Meal 2">
+              <h2>Bacon Cheddar Burger </h2>
+              <p>Beef patty topped with crispy bacon, melted cheddar cheese, lettuce, tomato, and BBQ sauce on a brioche bun.</p>
+              <span>$8.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/BURGERS/pexels-valeria-boltneva-1639557.jpg" alt="Meal 10">
+              <h2>Veggie Burge</h2>
+              <p>A plant-based patty made with vegetables and legumes, topped with lettuce, tomato, onion, pickles, and vegan mayo on a whole grain bun.</p>
+              <span>$12.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/BURGERS/pexels-valeria-boltneva-580612.jpg" alt="Meal 10">
+              <h2>Mushroom Swiss Burger</h2>
+              <p>Beef patty with sautéed mushrooms, melted Swiss cheese, caramelized onions, and mayo on a pretzel bun.</p>
+              <span>$15.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/BURGERS/pexels-eduardo-krajan-15476361.jpg" alt="Meal 10">
+              <h2>BBQ Ranch Chicken Burger</h2>
+              <p>Grilled or fried chicken breast smothered in BBQ sauce, topped with bacon, ranch dressing, lettuce, tomato, and onion on a brioche bun.</p>
+              <span>$10.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/BURGERS/pexels-rajesh-tp-1633578.jpg" alt="Meal 10">
+              <h2>Guacamole Turkey Burger</h2>
+              <p>Lean turkey patty topped with homemade guacamole, lettuce, tomato, red onion, and chipotle mayo on a wheat bun.</p>
+              <span>$5.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/BURGERS/pexels-valeria-boltneva-1639557.jpg" alt="Meal 10">
+              <h2>Blue Cheese Bison Burger</h2>
+              <p>Flavorful bison patty with tangy blue cheese crumbles, caramelized onions, arugula, and garlic aioli on a ciabatta bun.</p>
+              <span>$13.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/BURGERS/pexels-valeria-boltneva-1199959.jpg" alt="Meal 10">
+              <h2>Greek Lamb Burger</h2>
+              <p>Juicy lamb patty seasoned with Mediterranean spices, topped with feta cheese, tzatziki sauce, lettuce, tomato, and red onion on a pita bread.</p>
+              <span>$7.99</span>
+            </div>
+        </div>
+        </li>
+        <li id="SALADES" class="meals">
+          <i class="fa-sharp fa-solid fa-bowl-food"></i> SALADES:
+          <div class="menu-items">
+            <div class="menu-item">
+              <img src="../../IMAGE/SALADES/pexels-antony-trivet-14460398.jpg" alt="Meal 1">
+              <h2>Caesar Salad </h2>
+              <p>Crisp romaine lettuce, garlic croutons, shaved parmesan cheese, and Caesar dressing.</p>
+              <span>$9.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/SALADES/pexels-aura-zhang-16144003.jpg" alt="Meal 2">
+              <h2>Greek Salad</h2>
+              <p>Fresh mixed greens, cucumbers, tomatoes, red onions, olives, feta cheese, and Greek vinaigrette.</p>
+              <span>$8.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/SALADES/pexels-raphael-loquellano-16123122.jpg" alt="Meal 10">
+              <h2>Cobb Salad</h2>
+              <p>Mixed greens, grilled or roasted chicken, bacon, hard-boiled eggs, avocado, tomatoes, blue cheese crumbles, and choice of dressing.</p>
+              <span>$12.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/SALADES/pexels-valeria-boltneva-14457210.jpg" alt="Meal 10">
+              <h2>Caprese Salad </h2>
+              <p>Fresh tomatoes, mozzarella cheese, basil, balsamic glaze, and olive oil.</p>
+              <span>$15.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/SALADES/pexels-cats-coming-406152.jpg" alt="Meal 10">
+              <h2>Asian Sesame Chicken Salad </h2>
+              <p>Mixed greens, grilled sesame chicken, mandarin oranges, crispy wontons, carrots, and sesame ginger dressing.</p>
+              <span>$10.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/SALADES/pexels-dana-tentis-1213710.jpg" alt="Meal 10">
+              <h2>Spinach and Strawberry Salad</h2>
+              <p>Baby spinach, fresh strawberries, pecans, feta cheese, and balsamic vinaigrette.</p>
+              <span>$5.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/SALADES/pexels-iina-luoto-1211887.jpg" alt="Meal 10">
+              <h2>Quinoa and Roasted Vegetable Salad </h2>
+              <p>Quinoa, roasted vegetables (such as bell peppers, zucchini, and carrots), chickpeas, and lemon vinaigrette.</p>
+              <span>$13.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/SALADES/pexels-valeria-boltneva-1639556.jpg" alt="Meal 10">
+              <h2>Mediterranean Salad</h2>
+              <p> Mixed greens, cherry tomatoes, cucumbers, red onions, kalamata olives, feta cheese, and lemon herb dressing.</p>
+              <span>$7.99</span>
+            </div>
+        </div>
+        </li>
+        <li id="SANDWICHS" class="meals">
+          <i class="fa-solid fa-hotdog"></i><a href="#SANDWICHS"> SANDWICHS:
+          <div class="menu-items">
+            <div class="menu-item">
+              <img src="../../IMAGE/SANDWICHS/pexels-geraud-pfeiffer-6605653.jpg" alt="Meal 1">
+              <h2>Turkey Club Sandwich </h2>
+              <p>Sliced roasted turkey breast, bacon, lettuce, tomato, and mayo on toasted bread.</p>
+              <span>$9.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/SANDWICHS/pexels-los-muertos-crew-7613568.jpg" alt="Meal 2">
+              <h2>Reuben Sandwich </h2>
+              <p>Corned beef, sauerkraut, Swiss cheese, and Russian dressing on rye bread, grilled to perfection.</p>
+              <span>$8.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/SANDWICHS/pexels-nishant-aneja-2955819.jpg" alt="Meal 10">
+              <h2>BLT Sandwich</h2>
+              <p>Crispy bacon, lettuce, tomato, and mayo on toasted bread.</p>
+              <span>$12.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/SANDWICHS/pexels-rajesh-tp-1633525.jpg" alt="Meal 10">
+              <h2>Veggie Sandwich</h2>
+              <p>A medley of fresh vegetables such as lettuce, tomato, cucumber, onion, bell peppers, avocado, and a choice of dressing on whole grain bread.</p>
+              <span>$15.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/SANDWICHS/pexels-rajesh-tp-1633544.jpg" alt="Meal 10">
+              <h2>Philly Cheesesteak Sandwich</h2>
+              <p>Thinly sliced beef steak, sautéed onions and bell peppers, melted provolone cheese, and mayo on a hoagie roll.</p>
+              <span>$10.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/SANDWICHS/pexels-rajesh-tp-1600711.jpg" alt="Meal 10">
+              <h2>Chicken Caesar Wrap</h2>
+              <p>Grilled chicken, romaine lettuce, Caesar dressing, and parmesan cheese wrapped in a tortilla.</p>
+              <span>$5.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/SANDWICHS/pexels-ahmed-rabea-4559174.jpg" alt="Meal 10">
+              <h2>Tuna Salad Sandwich</h2>
+              <p>Tuna salad made with mayo, celery, and onions, with lettuce, tomato, and pickles on bread.</p>
+              <span>$13.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/SANDWICHS/pexels-pixabay-461382.jpg" alt="Meal 10">
+              <h2>Cubano Sandwich</h2>
+              <p>Roasted pork, ham, Swiss cheese, pickles, and mustard on pressed Cuban bread.</p>
+              <span>$7.99</span>
+            </div>
+        </div>
+        </li>
+        <li id="PLATS" class="meals">
+          <i class="fa-solid fa-utensils"></i> PLATS:
+          <div class="menu-items">
+            <div class="menu-item">
+              <img src="../../IMAGE/PLATS/pexels-elevate-1267320.jpg" alt="Meal 1">
+              <h2>Grilled Salmon</h2>
+              <p>Fresh salmon fillet grilled to perfection, served with roasted vegetables and lemon herb butter sauce.</p>
+              <span>$9.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/PLATS/pexels-engin-akyurt-2673353.jpg" alt="Meal 2">
+              <h2>Beef Tenderloin </h2>
+              <p>Juicy beef tenderloin steak cooked to your desired level of doneness, served with garlic mashed potatoes and red wine reduction sauce.</p>
+              <span>$8.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/PLATS/pexels-kasumi-loffler-3535383.jpg" alt="Meal 10">
+              <h2>Chicken Marsala </h2>
+              <p>Tender chicken breast cooked in a Marsala wine sauce with mushrooms, served with creamy mashed potatoes.</p>
+              <span>$12.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/PLATS/pexels-pixabay-262978.jpg" alt="Meal 10">
+              <h2>Eggplant Parmesan </h2>
+              <p>Breaded and fried eggplant slices topped with marinara sauce, melted mozzarella cheese, and served over spaghetti.</p>
+              <span>$15.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/PLATS/pexels-rene-asmussen-2977514.jpg" alt="Meal 10">
+              <h2>Vegetarian Stir </h2>
+              <p>Assorted fresh vegetables stir-fried in a flavorful sauce (such as teriyaki or ginger garlic) and served over steamed rice.</p>
+              <span>$10.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/PLATS/pexels-valeria-boltneva-1683549.jpg" alt="Meal 10">
+              <h2>Lamb Chops</h2>
+              <p>Grilled lamb chops seasoned with herbs and served with rosemary roasted potatoes and mint sauce.</p>
+              <span>$5.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/PLATS/pexels-dana-tentis-262959.jpg" alt="Meal 10">
+              <h2>Mushroom Risotto </h2>
+              <p>Creamy Arborio rice cooked with mushrooms, Parmesan cheese, and white wine, finished with a drizzle of truffle oil.</p>
+              <span>$13.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/PLATS/pexels-nicola-barts-7937464.jpg" alt="Meal 10">
+              <h2>Beef and Broccoli</h2>
+              <p>Sliced beef stir-fried with broccoli in a savory brown sauce, served over steamed rice.</p>
+              <span>$7.99</span>
+            </div>
+        </div>
+        </li>
+        <li id="DRINKS" class="meals">
+          <i class="fa-solid fa-martini-glass-citrus"></i> DRINKS:
+          <div class="menu-items">
+            <div class="menu-item">
+              <img src="../../IMAGE/DRINKS/pexels-sadman-chowdhury-1564534.jpg" alt="Meal 1">
+              <h2>Strawberry Banana Smoothie </h2>
+              <p>A refreshing blend of strawberries, bananas, yogurt, and milk, blended together until smooth.</p>
+              <span>$9.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/DRINKS/pexels-this-is-zun-1148215.jpg" alt="Meal 2">
+              <h2>Mango Lassi </h2>
+              <p>A popular Indian drink made with ripe mangoes, yogurt, and a hint of cardamom, blended into a creamy and satisfying beverage.</p>
+              <span>$8.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/DRINKS/pexels-valeria-boltneva-1200348.jpg" alt="Meal 10">
+              <h2>Watermelon Agua Fresca </h2>
+              <p>A light and refreshing Mexican drink made with fresh watermelon, lime juice, and a touch of sweetness, blended or strained for a smooth texture.</p>
+              <span>$12.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/DRINKS/pexels-alexander-mils-2045362.jpg" alt="Meal 10">
+              <h2>Pineapple Coconut Smoothie </h2>
+              <p>A tropical treat made with pineapple, coconut milk, yogurt, and a splash of lime juice, blended into a creamy and tangy drink.</p>
+              <span>$15.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/DRINKS/pexels-alexander-mils-1149302.jpg" alt="Meal 10">
+              <h2>Mixed Berry Smoothie</h2>
+              <p>A delicious blend of mixed berries, such as strawberries, blueberries, and raspberries, with yogurt and honey, blended to perfection.</p>
+              <span>$10.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/DRINKS/pexels-valeria-boltneva-1200348.jpg" alt="Meal 10">
+              <h2>Kiwi Cucumber Cooler</h2>
+              <p>A refreshing drink made with fresh kiwi, cucumber, lime juice, and mint, blended with ice for a cooling and revitalizing beverage.</p>
+              <span>$5.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/DRINKS/pexels-alexander-mils-1853812.jpg" alt="Meal 10">
+              <h2>Peach Ginger Smoothie</h2>
+              <p>Asweet and tangy drink made with fresh peaches, ginger, yogurt, and a touch of honey, blended into a smooth and zesty concoction.</p>
+              <span>$13.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/DRINKS/pexels-bich-tran-2362391.jpg" alt="Meal 10">
+              <h2>Citrus Punch</h2>
+              <p>A refreshing punch made with a mix of citrus fruits, such as oranges, grapefruits, and lemons, combined with water, sugar, and ice for a tart and tangy drink.</p>
+              <span>$7.99</span>
+            </div>
+        </div>
+        </li>
+        <li id="SWEETS" class="meals">
+          <i class="fa-solid fa-ice-cream"></i> SWEETS:
+          <div class="menu-items">
+            <div class="menu-item">
+              <img src="../../IMAGE/SWEETS/pexels-jhoon-14434357.jpg" alt="Meal 1">
+              <h2>Chocolate Lava Cake</h2>
+              <p>Warm, gooey chocolate cake with a molten chocolate center, served with vanilla ice cream and raspberry sauce.</p>
+              <span>$9.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/SWEETS/pexels-pixabay-161420.jpg" alt="Meal 2">
+              <h2>Cheesecake </h2>
+              <p>Creamy New York-style cheesecake with a graham cracker crust, topped with fresh berries or caramel sauce.</p>
+              <span>$8.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/SWEETS/pexels-susanne-jutzeler-sujufoto-1132558.jpg" alt="Meal 10">
+              <h2>Tiramisu </h2>
+              <p> Classic Italian dessert made with layers of coffee-soaked ladyfingers, mascarpone cheese, and cocoa powder.</p>
+              <span>$12.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/SWEETS/pexels-augustinus-martinus-noppé-13701346.jpg" alt="Meal 10">
+              <h2>Crème Brûlée</h2>
+              <p> Rich and creamy vanilla custard with a caramelized sugar crust on top.</p>
+              <span>$15.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/SWEETS/pexels-kristina-paukshtite-1146758.jpg" alt="Meal 10">
+              <h2>Apple Pie</h2>
+              <p>Classic American dessert with a flaky pie crust, filled with spiced apples and baked until golden brown.</p>
+              <span>$10.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/SWEETS/pexels-peter-holmboe-5615002.jpg" alt="Meal 10">
+              <h2>Red Velvet Cupcake</h2>
+              <p>Moist red velvet cake with a cream cheese frosting and a sprinkle of cocoa powder.</p>
+              <span>$5.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/SWEETS/pexels-piriyonel-4875225.jpg" alt="Meal 10">
+              <h2>Lemon Bars</h2>
+              <p>Tangy lemon custard filling on a buttery shortbread crust, dusted with powdered sugar.</p>
+              <span>$13.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/SWEETS/pexels-sittisak-c-1739347.jpg" alt="Meal 10">
+              <h2>Fruit Tart</h2>
+              <p>Shortbread crust filled with pastry cream and topped with a colorful array of fresh fruits.</p>
+              <span>$7.99</span>
+            </div>
+        </div>
+        </li>
+        <li id="CREPES" class="meals">
+          <i class="fa-solid fa-stroopwafel"></i> CREPES:
+          <div class="menu-items">
+            <div class="menu-item">
+              <img src="../../IMAGE/CREPES/pexels-eileen-lamb-3225499.jpg" alt="Meal 1">
+              <h2>Nutella and Banana Crepe</h2>
+              <p>Classic crepe filled with Nutella spread, sliced bananas, and whipped cream, folded into a delightful treat.</p>
+              <span>$9.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/CREPES/pexels-eileen-lamb-3225506.jpg" alt="Meal 2">
+              <h2>Ham and Cheese Crepe</h2>
+              <p>Savory crepe filled with thinly sliced ham, shredded cheese (such as Gruyere or Swiss), and béchamel sauce, folded and topped with more cheese.</p>
+              <span>$8.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/CREPES/pexels-hakim-santoso-2613471.jpg" alt="Meal 10">
+              <h2>Strawberry and Cream Crepe</h2>
+              <p>Fresh strawberries, whipped cream, and a drizzle of strawberry sauce inside a delicate crepe, folded and dusted with powdered sugar.</p>
+              <span>$12.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/CREPES/pexels-marina-m-5663305.jpg" alt="Meal 10">
+              <h2>Spinach and Mushroom Crepe</h2>
+              <p> Crepe filled with sautéed spinach, mushrooms, caramelized onions, and a creamy garlic sauce, folded and topped with grated Parmesan cheese.</p>
+              <span>$15.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/CREPES/pexels-olesia-lebedenko-16058305.jpg" alt="Meal 10">
+              <h2>Chicken and Mushroom Crepe</h2>
+              <p>Tender chicken breast, sautéed mushrooms, and a creamy herb sauce inside a crepe, folded and baked with cheese on top.</p>
+              <span>$10.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/CREPES/pexels-pixabay-221063.jpg" alt="Meal 10">
+              <h2>Lemon and Sugar Crepe</h2>
+              <p>Classic crepe with a sprinkle of sugar and a squeeze of fresh lemon juice, folded into a simple yet delicious option.</p>
+              <span>$5.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/CREPES/pexels-pixabay-53483.jpg" alt="Meal 10">
+              <h2>Caramelized Apple Crepe</h2>
+              <p>Crepe filled with caramelized apples, cinnamon, and a dollop of whipped cream, folded and drizzled with caramel sauce.</p>
+              <span>$13.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/CREPES/pexels-polina-tankilevitch-4725649.jpg" alt="Meal 10">
+              <h2>Nutella and Strawberry Crepe</h2>
+              <p>Nutella spread and fresh strawberries inside a crepe, folded and topped with more strawberries, whipped cream, and a dusting of powdered sugar.</p>
+              <span>$7.99</span>
+            </div>
+        </div>
+        </li>
+        <li id="PASTA" class="meals">
+          <i class="fa-solid fa-bowl-food"></i> PASTA:
+          <div class="menu-items">
+            <div class="menu-item">
+              <img src="../../IMAGE/PASTA/pexels-anthony-leong-2092906.jpg" alt="Meal 1">
+              <h2>Spaghetti Bolognese</h2>
+              <p>Classic spaghetti with a rich meat sauce made with ground beef, tomatoes, onions, carrots, and herbs.</p>
+              <span>$9.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/PASTA/pexels-cats-coming-1907244.jpg" alt="Meal 2">
+              <h2>Fettuccine Alfredo</h2>
+              <p>Creamy Alfredo sauce tossed with fettuccine pasta and topped with parmesan cheese and parsley.</p>
+              <span>$8.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/PASTA/pexels-cottonbro-studio-4057697.jpg" alt="Meal 10">
+              <h2>Penne alla Vodka</h2>
+              <p>Penne pasta cooked in a creamy tomato and vodka sauce, with onions, garlic, and a touch of red pepper flakes.</p>
+              <span>$12.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/PASTA/pexels-cottonbro-studio-4057736.jpg" alt="Meal 10">
+              <h2>Linguine with Clam Sauce</h2>
+              <p>Linguine pasta tossed in a white wine and garlic sauce with fresh clams, parsley, and a hint of lemon.</p>
+              <span>$15.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/PASTA/pexels-engin-akyurt-1438672.jpg" alt="Meal 10">
+              <h2>Pesto Pasta -</h2>
+              <p> Pasta (such as fusilli or spaghetti) tossed in a sauce made with fresh basil, pine nuts, garlic, parmesan cheese, and olive oil.</p>
+              <span>$10.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/PASTA/pexels-engin-akyurt-1527603.jpg" alt="Meal 10">
+              <h2>Beef Stroganoff</h2>
+              <p>Tender beef strips cooked in a creamy mushroom sauce and served over egg noodles.</p>
+              <span>$5.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/PASTA/pexels-engin-akyurt-2347311.jpg" alt="Meal 10">
+              <h2>Shrimp Scampi </h2>
+              <p>Succulent shrimp cooked in a garlic, butter, and lemon sauce, served over linguine or spaghetti.</p>
+              <span>$13.99</span>
+            </div>
+            <div class="menu-item">
+              <img src="../../IMAGE/PASTA/pexels-engin-akyurt-3209101.jpg" alt="Meal 10">
+              <h2>Veggie Primavera</h2>
+              <p> Colorful medley of sautéed vegetables (such as bell peppers, zucchini, cherry tomatoes, and mushrooms) tossed with pasta in a light garlic and olive oil sauce.</p>
+              <span>$7.99</span>
+            </div>
+        </div>
+        </li>
+      </ul>
+    </section>
+    
+    <footer id="ABOUT">
+        <div class="footer-container">
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <ul>
+              <li><i class="fa fa-phone"></i> +212 649-15-71-51</li>
+              <li><i class="fa fa-envelope"></i> LOGO@gmail.com</li>
+              <li><i class="fa-solid fa-map" style="color: #e09018;"></i>  CCG7+V26, Ave Moulay Youssef, Agadir 80000</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Follow Us</h4>
+            <ul>
+              <li><a href="http://www.facebook.com/"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+              <li><a href="http://www.twitter.com/"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
+              <li><a href="http://www.instagram.com/"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Subscribe</h4>
+            <p>Subscribe to our newsletter for updates on new fragrances and special offers.</p>
+            <form class="footerform">
+              <input type="email" placeholder="Enter your email">
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 LOGO. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+<script src="scrept.js"></script>
+</html>
